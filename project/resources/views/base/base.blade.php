@@ -17,6 +17,9 @@
 
     <body>
 
+        {{-- Navbar Section --}}
+        @include('components.navbar')
+
         {{-- Main Content Section Starts --}}
         @yield('content')
         {{-- Main Content Section Ends --}}
